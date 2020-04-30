@@ -1,0 +1,14 @@
+.progress-meter .background {
+  fill: #DFEAFD;
+}
+.progress-meter .foreground {
+  fill: #2E7AF9;
+}
+.progress-meter text {
+  font-family: 'Georgia' sans-serif;
+  font-size: 90px;
+}
+.progress-meter .text2 {
+  font-family: 'Georgia' sans-serif;
+  font-size: 20px;
+}
