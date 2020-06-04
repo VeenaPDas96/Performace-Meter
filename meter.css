@@ -1,0 +1,267 @@
+.progress-meter .background {
+  fill: #fff;
+   margin-right: 55px;
+  
+}
+.progress-meter .foreground {
+  fill: #0c44a1;
+    padding :18px;
+ 
+}
+.progress-meter text {
+  font-family: 'Georgia' sans-serif;
+  font-size: 90px;
+}
+.progress-meter .text2 {
+  font-family: 'Georgia' sans-serif;
+  font-size: 20px;
+}
+.progress-meter .solid {
+  border-style: solid;
+}
+.inputBx{
+  margin:30px;
+  width:auto;
+}
+.card {
+  box-shadow: 2px 4px 8px 6px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+ font-family: 'Georgia' sans-serif!important;
+  background-color:#fff;
+ 
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+  line-height: 0px;
+}
+
+button {
+   font-family: 'Georgia' sans-serif!important;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 1px;
+  color: white;
+  background-color: #06388a;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.cont{
+    margin-right: -17%;
+    margin-left:10%;
+  margin-height: 500px;
+  float:left;
+  width :49%;
+  text-align:center;
+}
+
+body {
+  overflow-x: hidden;
+  text-align: left;
+  background-image: linear-gradient(90deg, #097936 0%, #0bce59 35%, #90caa7 100%);
+  color: #FFFFF;
+  font-family: 'Georgia' sans-serif!important;
+  text-align: center;
+  
+}
+
+h1 {
+  font-family: 'Georgia' sans-serif;
+  
+  text-transform: uppercase;
+  color: #06388a;
+  font-size: 1.8em;
+   
+   
+  
+}
+h2{
+  font-family: 'Britannic Bold';
+  
+  text-transform: uppercase;
+  color: #06388a;
+    font-weight: 2000;
+  font-size: 2em;
+   
+  
+}
+
+ {
+   
+   color: #06388a;
+    font-family: 'Georgia' sans-serif;
+   
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+p {
+  font-size: 1.3em;  
+  
+}
+
+.contact{
+  max-width: 500px;
+  padding-bottom: 3px;
+  padding: 8px;
+}
+/*---------- star rating ----------*/
+.star-rating, .back-stars, .front-stars {
+  display: flex;
+}
+
+.star-rating {
+  align-items: center;
+  font-size: 3em;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.rating-text{
+  font-weight: bold;
+  color: #06388a;
+    font-family: 'Copperplate Gothic Bold';
+  align-items: center;
+  font-size: 1.3em;
+  padding-bottom:10px;
+}
+
+
+.back-stars {
+  color: #FFFFFF;
+  position: relative;
+  text-shadow: 4px 4px 10px #843a3a;
+}
+
+.front-stars {
+  color: #FFBC0B;
+  overflow: hidden;
+  position: absolute;
+  text-shadow: 2px 2px 5px #d29b09;
+  top: 0;
+  transition: all 0.5s;
+}
+
+input {
+  background: transparent;
+  border: solid 2px #bb5252;
+  color: #030100;
+  font-size: 1.5em;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+input:focus {
+  outline: none;
+}
+
+.percent {
+  color: #bb5252;
+  font-size: 1.5em;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+
+.navigation {
+  width: 100%;
+  background-color: black;
+}
+
+img {
+  width: 25px;
+  border-radius: 50px;
+  float: left;
+}
+.logout_icon{
+  width: 25px;
+  border-radius: 50px;
+  float: left;
+  font-size:15px;
+}
+h2 .logout {
+  font-size:11px!important;
+font-family: 'Georgia' sans-serif;
+  right: -15px;
+  top: 10;
+  bottom: -14px;
+  overflow: hidden;
+  letter-spacing: 1px;
+  opacity: 0;
+  transition: opacity .15s;
+  -webkit-transition: opacity .15s;
+  
+  
+}
+
+.button {
+	text-decoration: none;
+	float: right;
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  width: 25px;
+  background-color: #06388a;;
+  transition: width .35s;
+  -webkit-transition: width .35s;
+  overflow: hidden
+}
+
+a:hover {
+  width: 100px;
+}
+
+a:hover .logout{
+  opacity: .9;
+}
+
+a {
+  text-decoration: none;
+}
+
+.recom-text{
+  backgroud-color: #ffffff;
+  color: #fffffff;
+    text: bold!important;
+  align-items: center;
+  font-size: 1.3em;
+  backgroud-color: #ffffff;
+   font-family: 'Georgia' sans-serif!important;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  background-color: #FFBC0B;
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  
+}
+
+.pie-chart{
+  padding: 8px;
+  right: -15px;
+  bottom: -14px;
+  float: right;
+  padding: 5px;
+  margin: 10px;
+}
